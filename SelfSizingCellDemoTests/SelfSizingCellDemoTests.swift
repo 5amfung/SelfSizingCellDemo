@@ -1,11 +1,3 @@
-//
-//  SelfSizingCellDemoTests.swift
-//  SelfSizingCellDemoTests
-//
-//  Created by bbpan on 10/3/14.
-//
-//
-
 import UIKit
 import XCTest
 

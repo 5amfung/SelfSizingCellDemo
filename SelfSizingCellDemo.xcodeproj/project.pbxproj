@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3DC11219DFC08900AA1858 /* ChildTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DC11119DFC08900AA1858 /* ChildTableViewController.swift */; };
+		CD3DC11819DFC82500AA1858 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DC11719DFC82500AA1858 /* MyCell.swift */; };
 		CDC6B21919DFBC0B0047E657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6B21819DFBC0B0047E657 /* AppDelegate.swift */; };
 		CDC6B21B19DFBC0B0047E657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6B21A19DFBC0B0047E657 /* ViewController.swift */; };
 		CDC6B21E19DFBC0B0047E657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC6B21C19DFBC0B0047E657 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3DC11119DFC08900AA1858 /* ChildTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildTableViewController.swift; sourceTree = "<group>"; };
+		CD3DC11719DFC82500AA1858 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		CDC6B21319DFBC0B0047E657 /* SelfSizingCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC6B21719DFBC0B0047E657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC6B21819DFBC0B0047E657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		CDC6B21519DFBC0B0047E657 /* SelfSizingCellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CD3DC11719DFC82500AA1858 /* MyCell.swift */,
+				CD3DC11119DFC08900AA1858 /* ChildTableViewController.swift */,
 				CDC6B21819DFBC0B0047E657 /* AppDelegate.swift */,
 				CDC6B21A19DFBC0B0047E657 /* ViewController.swift */,
 				CDC6B21C19DFBC0B0047E657 /* Main.storyboard */,
@@ -212,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC6B21B19DFBC0B0047E657 /* ViewController.swift in Sources */,
+				CD3DC11819DFC82500AA1858 /* MyCell.swift in Sources */,
+				CD3DC11219DFC08900AA1858 /* ChildTableViewController.swift in Sources */,
 				CDC6B21919DFBC0B0047E657 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +412,7 @@
 				CDC6B23419DFBC0B0047E657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDC6B23519DFBC0B0047E657 /* Build configuration list for PBXNativeTarget "SelfSizingCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +421,7 @@
 				CDC6B23719DFBC0B0047E657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  SelfSizingCellDemo
-//
-//  Created by bbpan on 10/3/14.
-//
-//
-
 import UIKit
 
 class ViewController: UIViewController {
