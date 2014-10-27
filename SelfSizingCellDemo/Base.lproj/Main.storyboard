@@ -61,16 +61,16 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tyx-NE-CEU" id="qeB-pT-kPO">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8C-mw-LLf">
-                                            <rect key="frame" x="8" y="44" width="304" height="35"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwA-BT-dxg">
-                                            <rect key="frame" x="8" y="16" width="304" height="20"/>
+                                            <rect key="frame" x="16" y="16" width="296" height="19.5"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="749" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8C-mw-LLf">
+                                            <rect key="frame" x="16" y="44" width="296" height="35.5"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -79,7 +79,7 @@
                                         <constraint firstItem="NwA-BT-dxg" firstAttribute="trailing" secondItem="qeB-pT-kPO" secondAttribute="trailingMargin" id="Ope-dA-EeO"/>
                                         <constraint firstItem="NwA-BT-dxg" firstAttribute="top" secondItem="qeB-pT-kPO" secondAttribute="topMargin" constant="8" id="VHo-75-J7q"/>
                                         <constraint firstItem="J8C-mw-LLf" firstAttribute="top" secondItem="NwA-BT-dxg" secondAttribute="bottom" constant="8" id="cbv-yh-qet"/>
-                                        <constraint firstItem="NwA-BT-dxg" firstAttribute="leading" secondItem="qeB-pT-kPO" secondAttribute="leadingMargin" id="gvx-Gy-dzD"/>
+                                        <constraint firstItem="NwA-BT-dxg" firstAttribute="leading" secondItem="qeB-pT-kPO" secondAttribute="leadingMargin" constant="8" id="gvx-Gy-dzD"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="J8C-mw-LLf" secondAttribute="bottom" id="jN6-MO-N6Z"/>
                                         <constraint firstItem="J8C-mw-LLf" firstAttribute="width" secondItem="NwA-BT-dxg" secondAttribute="width" id="lOb-YM-zNb"/>
                                     </constraints>

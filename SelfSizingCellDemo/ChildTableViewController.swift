@@ -69,15 +69,11 @@ class ChildTableViewController : UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as MyCell
         let content = self.data[indexPath.row]
 
-        cell.titleLabel.setTranslatesAutoresizingMaskIntoConstraints(false)
         cell.titleLabel.text = content.line1
         cell.titleLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
-        cell.titleLabel.numberOfLines = 0
-
-        cell.subTitleLabel.setTranslatesAutoresizingMaskIntoConstraints(false)
+        
         cell.subTitleLabel.text = content.line2
         cell.subTitleLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
-        cell.subTitleLabel.numberOfLines = 0
 
         return cell;
     }
