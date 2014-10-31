@@ -11,11 +11,11 @@ struct Cell {
 class ChildTableViewController : UITableViewController {
 
     var data: [Cell] = [
-        Cell(line1: "eos rebum ullum ea", line2:"Eam"),
-        Cell(line1: "Lorem ipsum", line2: "dolor sit amet, essent ceteros ut vix"),
+        Cell(line1: "eos rebum ullum ea", line2:"Eam."),
+        Cell(line1: "Lorem ipsum.", line2: "dolor sit amet, essent ceteros ut vix."),
         Cell(line1: "In alii velit mei, eu omnis dissentias nec. Denique ocurreret et eam. Sit ne solum laoreet luptatum, in nec affert utinam, ad duis pertinax mea.", line2: "Nullam dolores maiestatis nam ea, liber diceret similique has ad."),
-        Cell(line1: "cu appareat fabellas, ex veri virtute cotidieque mei, ius cu assum minimum.", line2:"Vidisse sapientem"),
-        Cell(line1: "disputationi eu ius, nec unum tamquam facilis ex.", line2: "Sit an"),
+        Cell(line1: "cu appareat fabellas, ex veri virtute cotidieque mei, ius cu assum minimum.", line2:"Vidisse sapientem."),
+        Cell(line1: "disputationi eu ius, nec unum tamquam facilis ex.", line2: "Sit an."),
         Cell(line1: "seteros partiendo", line2: "ne platonem salutatus sea"),
         Cell(line1: "congue nullam alienum nam no. His aperiam deterruisset cu, gloriatur consequuntur vim cu.", line2: "Mel ea"),
         Cell(line1: "praesent constituam", line2: "et cum tollit accommodare"),
